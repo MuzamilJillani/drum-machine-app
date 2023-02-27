@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  font-family: Russo One;
+  font-size: 22px;
+}
+#drum-machine {
+  width: 500px;
+  height: 300px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.options-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+.drum-pad-div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  background-color: teal;
+}
+.drum-pad {
+  background-color: burlywood;
+  border: 1px black solid;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#display {
+  width: 70%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pacifico";
+  text-transform: uppercase;
+  background-color: coral;
+  border-radius: 3px;
+}
